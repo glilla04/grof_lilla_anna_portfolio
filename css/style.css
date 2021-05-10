@@ -1,0 +1,165 @@
+body{
+	background-color: #d8bfd8;
+	font:20px Sans-Serif;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.header_közép{
+	text-align: center;
+}
+header div{
+	text-align: center;
+	color: #800080;
+}
+header a:hover{
+	color: #e6e6f6;
+}
+header a{
+	color: #800080;
+}
+header ul{
+	overflow: hidden;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0;
+}
+header li{
+	float: center;
+	display: inline-block;
+	margin: 0 30px 30px 30px;
+	font-size: 20px;
+}
+title{
+  	color: #800080;
+  	text-align: center;
+}
+header{
+	text-align: center;
+	background-color: #d8bfd8;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.keprolam img{
+	max-width: 100%;
+	max-height: 20rem;
+	margin: 20px auto;
+	display: inline-block;
+	object-fit: contain;
+	position: center;
+}
+.cim{
+	background-image: url("képek/háttér.jpg");
+	height: 600px;
+	padding-top: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 30px;
+	text-align: center;
+	color: #800080;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.cim h2{
+	margin-top: 0;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-align: center;
+	color: #800080;
+}
+.cim p{
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+.doboz{
+	background-color: #800080;
+	color: #d8bfd8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.doboz h2{
+	text-align: center;
+	color: #d8bfd8;
+}
+.doboz h3{
+	text-align: center;
+	color: #d8bfd8;
+	text-decoration: underline;
+	float: center;
+}
+.doboz p{
+	text-align: center;
+	color: #d8bfd8;
+}
+.doboz a{
+	color:#d8bfd8;
+}
+.doboz img{
+	width: 25%;
+	height: 300px;
+}
+.kepek_racs{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
+	grid-gap: 1rem;
+	margin: 1rem;
+	text-align: center;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding-bottom: 20px;
+}
+.kep_doboz img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: transform .2s;
+	cursor: pointer;
+}
+.kep_doboz img:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+.kep_doboz {
+	padding: 0px;
+  	transition: transform .2s;
+  	width: 100%;
+  	height: 200px;
+ 	margin: 0;
+}
+.doboz2 h3{
+	text-align: center;
+	color: #d8bfd8;
+	text-decoration: underline;
+	float: center;
+}
+.doboz2{
+	background-color: #800080;
+	color: #d8bfd8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.doboz2 img{
+	width: 25%;
+	height: 250px;
+}
+footer {
+	background-color: #d8bfd8;
+	padding-top:20px;
+	padding-bottom: 20px;
+	font: 20px Sans-Serif;
+}
+.footer_bal{
+	float: left;
+	color: #800080;
+}
+.footer_kozep{
+	float: center;
+	color: #800080;
+}
+.footer_jobb{
+	float: right;
+	color: #800080;
+}
